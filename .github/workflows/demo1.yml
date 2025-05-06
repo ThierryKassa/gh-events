@@ -4,13 +4,13 @@ on:
     types: 
       - opened
     branches: #filter
-      - main
+      - master
       - 'dev-*'
       - 'feat/**'
   workflow_dispatch:
   push:
     branches: #filter
-      - main
+      - master
       - 'dev-*'
       - 'feat/**'
     paths-ignore:
