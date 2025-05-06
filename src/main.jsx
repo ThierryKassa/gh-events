@@ -8,7 +8,7 @@ import './index.css';
 // This is important!
 
 //This is to check the pull request
-//This is the third change
+//This is the third change on new branch
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
